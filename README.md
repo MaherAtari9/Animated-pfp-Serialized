@@ -22,12 +22,12 @@ Open the `Animated` file or copy the command below, and replace:
 
 ```cmd
 curl "https://serializd.onrender.com/api/user/settings/updateimage" ^
- -H "accept: application/json, text/plain, */*" ^
- -H "origin: https://www.serializd.com" ^
- -H "referer: https://www.serializd.com/" ^
- -H "x-requested-with: serializd_vercel" ^
- -H "Authorization: Bearer [YOUR_TOKEN_HERE]" ^
- -F "image=@[IMAGE_PATH_HERE];type=image/gif"
+  -H "accept: application/json, text/plain, */*" ^
+  -H "origin: https://www.serializd.com" ^
+  -H "referer: https://www.serializd.com/" ^
+  -H "x-requested-with: serializd_vercel" ^
+  -H "Authorization: Bearer [YOUR_TOKEN_HERE]" ^
+  -F "image=@[PATH_TO_YOUR_IMAGE];type=image/gif"
 ```
 
 ### 4. Run the command
